@@ -1,1 +1,1 @@
-# romi_1979_2018
+# Real-time OMI index 
