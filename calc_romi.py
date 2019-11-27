@@ -51,7 +51,8 @@ if __name__ == '__main__':
     
     i1 = momi_time.index(datetime(2002,1,1))
     
-    romi_dat = np.loadtxt('./romi.1x.txt')
+    romi_dat = np.loadtxt('https://www.esrl.noaa.gov/psd/mjo/mjoindex/romi.1x.txt')
+    # romi_dat = np.loadtxt('./romi.1x.txt')
     romi_time = [datetime(int(romi_dat[i,0]), int(romi_dat[i,1]), int(romi_dat[i,2])) for i in np.arange(romi_dat.shape[0]) ]
     romi_tord = np.array([tt.toordinal() for tt in romi_time])
     romi_1 = romi_dat[:,4]
