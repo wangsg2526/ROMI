@@ -1,5 +1,5 @@
-#!/sw1/wangs/anaconda3.6_new/bin//python
-###!/sw21/wangs/anaconda2/bin/python
+#!/usr/binenv python
+### python 3
 
 import pandas as pd
 import numpy as np
